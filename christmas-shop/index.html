@@ -13,12 +13,12 @@
           <img class="logo__img" src="./assets/icons/snowflake.svg" alt="logo">
           <span class="logo__store-name">the gifts</span>
         </div>
-        <nav class="header__nav">
-          <ul>
-            <li><a href="./gifts">gifts</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#best">best</a></li>
-            <li><a href="#contacts">contacts</a></li>  
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__elem"><a class="nav__link" href="./gifts">gifts</a></li>
+            <li class="nav__elem"><a class="nav__link" href="#about">about</a></li>
+            <li class="nav__elem"><a class="nav__link" href="#best">best</a></li>
+            <li class="nav__elem"><a class="nav__link" href="#contacts">contacts</a></li>  
           </ul>    
         </nav>
       </div>
@@ -26,16 +26,16 @@
     <main class="main">
       <section class="hero-section">
         <div class="container">
-          <span>Merry Christmas</span>
+          <p class="new-year-greeting">Merry Christmas</p>
           <h1 class="hero-section__header">Gift yourself the magic of new possibilities</h1>
-          <a href="./gifts">Explore Magical Gifts</a>
-          <span>and Happy New Year</span>
+          <a class="hero-section__button link-button" href="./gifts">Explore Magical Gifts</a>
+          <p class="new-year-greeting">and Happy New Year</p>
         </div>    
       </section>
       <section class="about-section" id="about">
         <div class="container">
           <div class="about-section__about">
-            <span>About</span>
+            <span class="about-section__small-title">About</span>
             <h2 class="about-section__title">Unleash your inner superhero!</h2>
             <p class="about-section__description">This New Year marks the beginning of your journey to inner harmony and new strengths. We offer unique gifts that will help you improve your life.</p>
           </div>
@@ -46,7 +46,7 @@
       </section> 
       <section class="slider-section">
         <div class="container">
-          <h2 class="slider-section__title">Become Happier!<span>in the new 2025</span></h2>
+          <h2 class="slider-section__title">Become Happier!<span class="slider-section__title slider-section__title--big-font">in the new 2025</span></h2>
           <ul class="slider">
             <li class="slider__slide">Live</li>
             <li class="slider__slide">
@@ -73,38 +73,38 @@
       </section> 
       <section class="gifts-section" id="best">
         <div class="container">
-         <h2 class="gifts-section__title">Best Gifts<span>especially for you</span></h2> 
+         <h2 class="gifts-section__title">Best Gifts<span class="gifts-section__title gifts-section__title--big-font">especially for you</span></h2> 
          <ul class="gifts">
-          <li class="gifts__gift gift">
+          <li class="gift">
             <div class="gift__backround">
-              <img src="./assets/imgs/gifts/gift-for-work.png" alt="gift-for-work">
+              <img class="gift__img" src="./assets/imgs/gifts/gift-for-work.png" alt="gift-for-work">
               <div class="gift__text">
                 <h4 class="gift__category">For work</h4>
                 <h3 class="gift__title">Console.log Guru</h3>  
               </div>
             </div>
           </li>
-          <li class="gifts__gift">
+          <li class="gift">
             <div class="gift__backround">
-              <img src="./assets/imgs/gifts/gift-for-health.png" alt="gift-for-health">
+              <img class="gift__img" src="./assets/imgs/gifts/gift-for-health.png" alt="gift-for-health">
               <div class="gift__text">
                 <h4 class="gift__category">For health</h4>
                 <h3 class="gift__title">Hydration Bot</h3>
               </div>
             </div>
           </li>
-          <li class="gifts__gift">
+          <li class="gift">
             <div class="gift__backround">
-              <img src="./assets/imgs/gifts/gift-for-work.png" alt="gift-for-work">
+              <img class="gift__img" src="./assets/imgs/gifts/gift-for-work.png" alt="gift-for-work">
               <div class="gift__text">
                 <h4 class="gift__category">For work</h4>
                 <h3 class="gift__title">Merge Master</h3>
               </div>
             </div>
           </li>
-          <li class="gifts__gift">
+          <li class="gift">
             <div class="gift__backround">
-              <img src="./assets/imgs/gifts/gift-for-harmony.png" alt="gift-for-harmony">
+              <img class="gift__img" src="./assets/imgs/gifts/gift-for-harmony.png" alt="gift-for-harmony">
               <div class="gift__text">
                 <h4 class="gift__category">For harmony</h4>
                 <h3 class="gift__title">Spontaneous Coding Philosopher</h3>
@@ -144,40 +144,40 @@
     </main>  
     <footer class="footer" id="contacts">
       <ul class="contacts">
-        <li class="contacts__contact">
-          <img src="./assets/icons/contacts/santa-claus.svg" alt="santa-claus">
+        <li class="contact">
+          <img class="contact__icon" src="./assets/icons/contacts/santa-claus.svg" alt="santa-claus">
           <address>
-            <a href="tel:+375291112233">+375 (29) 111-22-33</a>
+            <a class="contact__link" href="tel:+375291112233">+375 (29) 111-22-33</a>
             Call Us
           </address>  
         </li>
-        <li class="contacts__contact">
-          <img src="./assets/icons/contacts/christmas-tree.svg" alt="christmas-tree">
+        <li class="contact">
+          <img class="contact__icon" src="./assets/icons/contacts/christmas-tree.svg" alt="christmas-tree">
           <address>
-            <a href="">Magic forest</a>
+            <a class="contact__link" href="https://maps.app.goo.gl/vfKEPHuCSLpp8NDL6" target="_blank">Magic forest</a>
             meet us     
           </address>
         </li>
-        <li class="contacts__contact">
-          <img src="./assets/icons/contacts/snake.svg" alt="snake">
+        <li class="contact">
+          <img class="contact__icon" src="./assets/icons/contacts/snake.svg" alt="snake">
           <address>
-            <a href="mailto:gifts@magic.com">gifts@magic.com</a>
+            <a class="contact__link" href="mailto:gifts@magic.com">gifts@magic.com</a>
             write us
           </address>
         </li>  
       </ul>
       <ul class="socials">
-        <li class="socials__social">
-          <a href=""><img class="" src="./assets/icons/socials/instagram.svg" alt="telegram"></a>
+        <li class="social">
+          <a class="social__link" href=""><img class="social__img" src="./assets/icons/socials/instagram.svg" alt="telegram"></a>
         </li>
-        <li class="socials__social">
-          <a href=""><img class="" src="./assets/icons/socials/facebook.svg" alt="facebook"></a>
+        <li class="social">
+          <a class="social__link" href=""><img class="social__img" src="./assets/icons/socials/facebook.svg" alt="facebook"></a>
         </li>
-        <li class="socials__social">
-          <a href=""><img class="" src="./assets/icons/socials/instagram.svg" alt="instagram"></a>
+        <li class="social">
+          <a class="social__link" href=" "><img class="social__img" src="./assets/icons/socials/instagram.svg" alt="instagram"></a>
         </li>
-        <li class="socials__social">
-          <a href=""><img class="" src="./assets/icons/socials/X.svg" alt="X"></a>
+        <li class="social">
+          <a class="social__link" href=""><img class="social__img" src="./assets/icons/socials/X.svg" alt="X"></a>
         </li>
       </ul>
       <p class="footer__copyright">© Copyright 2025, All Rights Reserved</p>
