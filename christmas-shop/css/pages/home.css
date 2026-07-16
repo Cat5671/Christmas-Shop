@@ -1,0 +1,193 @@
+
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+  border-radius: var(--border-radius);
+  background-color: var(--primary);      
+}
+
+.hero-section {
+  background-image: url('../../assets/imgs/backgrounds/bg-snow.png'), 
+  url('../../assets/imgs/backgrounds/bg-ball.png');   
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-section__content {
+  padding-block: 60px;
+  display: grid;
+  justify-items: center;
+  row-gap: 12px;    
+}
+
+.new-year-greeting,
+.hero-section__header {
+  color: var(--static-white);
+}
+
+.about-section {
+  background-image: url('../../assets/imgs/backgrounds/bg-snow.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;      
+}
+
+.about-section__content {
+  display: flex;
+  background-color: var(--static-white);
+  border-radius: 20px;    
+}
+
+.about-section__about {
+  width: calc(50% - 120px); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 20px;
+  padding-inline: 60px;
+  padding-block: 60px;
+}
+
+.about-section__small-title {
+  color: var(--primary)
+}
+
+.about-section__img-container {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section__img {
+  object-fit: contain;
+}
+
+.slider-section {
+  background-image: url('../../assets/imgs/backgrounds/bg-snow.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-section__title {
+  color: var(--static-white);
+}
+
+.slider-section__container {
+  display: grid;
+  row-gap: 20px;
+}
+
+.slider-section__title {
+  text-align: center;
+  padding-right: 82px;
+
+  @media (max-width: 1060px) {
+    padding-right: 8px;   
+  }
+}
+
+.slider-buttons {
+  padding-right: 82px;
+  display: flex;
+  column-gap: 20px;
+  justify-content: flex-end;
+
+  @media (max-width: 1060px) {
+    padding-right: 8px;   
+  }
+}
+
+.gifts-section {
+  background-image: url('../../assets/imgs/backgrounds/bg-snow.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gifts-section__container {
+  display: grid;
+  row-gap: 20px;
+}
+
+.gifts-section__title {
+  color: var(--static-white);
+  text-align: center;
+}
+
+.gifts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}   
+
+.gifts-section__title, 
+.slider-section__title {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.cta-section {
+  background-image: url('../../assets/imgs/backgrounds/bg-snow.png'), 
+  url('../../assets/imgs/backgrounds/bg-forest.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cta-section__title {
+  text-align: center;
+  color: var(--static-white); 
+} 
+
+.cta-section__content {
+  display: grid;
+  justify-items: center;
+  row-gap: 20px;
+  padding-block: 120px;
+} 
+
+.cta-section__title {
+  display: block;
+} 
+
+.container {
+  padding-block: var(--main-block-padding);
+  padding-inline: var(--main-inline-padding);   
+  
+  @media (max-width: 1060px) {
+    padding-inline: 8px;
+  }
+}
+
+.slider-section__container  {
+  padding-right: 0;
+} 
+
+@media (max-width: 635px) {
+  .about-section__content {
+    flex-direction: column;
+  }
+
+  .about-section__img-container {
+    width: 100%;
+  }
+
+  .about-section__about {
+    width: calc(100% - 40px) ;
+    padding-inline: 20px;
+  }
+  
+}

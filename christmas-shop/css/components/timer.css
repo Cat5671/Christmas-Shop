@@ -1,0 +1,34 @@
+.timer {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  row-gap: 8px;
+}
+
+.timer-unit__elem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+  height: 52px;
+  color: var(--static-white);
+  position: relative;
+}
+
+.timer-unit {
+  display: flex;
+  padding: 8px 12px 12px;
+  border-radius: var(--border-radius);
+  background-color: var(--static-white-40);
+} 
+
+.timer-unit li:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 16px;  
+  height: 20px;  
+  width: 1px;
+  background-color: var(--static-white-40);
+}
