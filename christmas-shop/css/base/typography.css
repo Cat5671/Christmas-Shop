@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.main-header {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600; 
+  font-size: 2rem; 
+  line-height: 150%;
+  letter-spacing: 18%;
+  text-align: center;
+  text-transform: uppercase; 
+}
+
+.secondary-header {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600; 
+  font-size: 1.5rem; 
+  line-height: 152%;
+  letter-spacing: 16%;
+  text-transform: uppercase;    
+}
+
+.slider-title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600; 
+  font-size: 5rem; 
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--static-white); 
+}
+
+.caption {
+  font-family: Allura, sans-serif;
+  font-weight: 400; 
+  font-size: 1.5rem; 
+  line-height: 100%;
+  letter-spacing: 5%;
+  text-align: center;   
+}
+
+.action-small,
+.link-button {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600; 
+  font-size: 0.75rem; 
+  line-height: 130%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase; 
+}
+
+.paragraph {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400; 
+  font-size: 1rem; 
+  line-height: 148%;
+  letter-spacing: 0%; 
+}
+
+.header-3 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600; 
+  font-size: 1rem; 
+  line-height: 152%;
+  letter-spacing: 8%;
+  text-transform: uppercase;  
+}
+
+.header-4,
+.timer-unit__label,
+.gift__category {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600; 
+  font-size: 0.75rem; 
+  line-height: 130%;
+  letter-spacing: 5%;
+  text-transform: uppercase; 
+}
+
+.contact__link {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600; 
+  font-size: 1.5rem; 
+  line-height: 152%;
+  letter-spacing: 16%;
+  text-align: center;
+  text-transform: uppercase;    
+}
+
+.action-large {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600; 
+  font-size: 1.5rem; 
+  line-height: 152%;
+  letter-spacing: 16%;
+  text-transform: uppercase; 
+}

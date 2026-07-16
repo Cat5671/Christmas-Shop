@@ -1,0 +1,55 @@
+.link-button {
+  display: block;
+  padding: 20px 32px;    
+  background-color: var(--dark);
+  color: var(--static-white);
+  border-radius: var(--border-radius);
+  transition: all 0.3s;
+  border: none;
+} 
+
+.slider-button {
+  border-radius: var(--border-radius);
+  padding: 15px;
+  border: 1px solid var(--static-white);
+  background-color: var(--primary);
+  transition: all 0.3s; 
+}
+
+
+@media (hover: hover) {
+  .link-button:hover {
+    background-color: var(--static-white);
+    color: var(--dark);
+    cursor: pointer;
+  }
+
+  .slider-button:hover {
+    background-color: var(--static-white);
+    cursor: pointer;
+  }
+
+  .slider-button:hover .slider-button__icon {
+    color: var(--primary);
+  }
+
+} 
+
+.arrow-right {
+  transform: rotate(180deg);
+}
+
+.slider-button__icon {
+  display: block;
+  color: var(--static-white);
+  transition: all 0.3s;
+}
+ 
+.slider-button--inactive {
+  pointer-events: none;
+  border: 1px solid var(--static-white-40);
+}
+
+.slider-button--inactive .slider-button__icon {
+  color: var(--static-white-40);
+} 

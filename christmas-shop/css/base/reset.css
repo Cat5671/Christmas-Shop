@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;    
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;  
+}
+
+img {
+  display: block;
+}
+
+address {
+  font-style: normal;
+  transform: none;
+}

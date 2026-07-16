@@ -1,0 +1,17 @@
+.slider-section__slider-container {
+  overflow: hidden;
+ }
+ 
+.slider { 
+  display: flex;
+  align-items: center;
+  column-gap: 20px; 
+} 
+
+.slider__img {
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  height: 200px;
+  width: 200px;
+}
+
