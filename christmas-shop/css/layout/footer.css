@@ -48,7 +48,7 @@
   }
 }
 
-.contact {
+.contact__link {
   display: grid;
   row-gap: 12px;
   justify-items: center;
@@ -78,7 +78,7 @@
     color: var(--primary);
   } 
 
-  .contact:hover .contact__link, 
+  .contact:hover .address__elem, 
   .contact:hover .contact__address {
     color: var(--primary);
     cursor: pointer; 

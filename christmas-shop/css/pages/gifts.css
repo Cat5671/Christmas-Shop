@@ -1,0 +1,54 @@
+.holiday-gifts-section {
+  background-image: url('../../assets/imgs/backgrounds/bg-garland.png'); 
+  background-repeat: no-repeat;
+  background-size: contain; 
+}
+
+.holiday-gifts-section__container {
+  display: grid;
+  row-gap: 20px;
+}
+
+.holiday-gifts-section__title {
+  color: var(--static-white);
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+
+  @media (max-width: 570px) {
+    column-gap: 0px;
+  }
+}
+
+.tab {
+  padding: 12px 20px;
+  color: var(--static-white);
+  border-radius: 12px;
+  transition: background 0.3s ease;
+
+  @media (max-width: 570px) {
+    padding: 12px 8px;
+  }
+}
+
+.tab--chosen {
+  background-color: var(--static-white-20);
+  pointer-events: none;
+}
+
+@media (hover: hover) {
+  .tab:hover {
+    background-color: var(--static-white-20);
+    cursor: pointer;
+  }
+}
+
+.holiday-gifts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}

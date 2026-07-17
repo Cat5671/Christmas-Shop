@@ -7,6 +7,7 @@
   padding-block: 12px;    
 }
 
+.logo__link, 
 .logo {
   padding-block: 8px ;
   padding-inline: 20px;
@@ -31,6 +32,13 @@
   padding-block: 12px;
   padding-inline: 20px;
   border-radius: 12px;
+  display: block;
+}
+
+.nav__link--chosen {
+  color: var(--primary);
+  background-color: var(--primary-10);
+  pointer-events: none;
 }
 
 @media (hover: hover) {
@@ -46,6 +54,7 @@
   border: none;
   background-color: initial;
   position: relative;
+  cursor: pointer;
 }
 
 .burger-menu__item::before,  
