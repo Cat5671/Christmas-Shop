@@ -12,5 +12,5 @@ export function initScrollToTop() {
   window.addEventListener('scroll',  toggleScrollToTopButton); 
   window.addEventListener('resize', toggleScrollToTopButton);
 
-  scrollToTopButton();
+  toggleScrollToTopButton();
 } 

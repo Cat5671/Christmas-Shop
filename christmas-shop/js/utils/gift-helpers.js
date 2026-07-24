@@ -11,7 +11,7 @@ export function renderGift(giftData, index) {
 
   const giftImg = document.createElement('img');
   giftImg.className = 'gift__img';
-  giftImg.src = `/assets/imgs/gifts/${giftData.img}`;
+  giftImg.src = `assets/imgs/gifts/${giftData.img}`;
   giftImg.alt = giftData.name; 
 
   const giftText = document.createElement('div');
