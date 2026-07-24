@@ -1,12 +1,28 @@
 .slider-section__slider-container {
-  overflow: hidden;
- }
+  overflow: hidden; 
+}
  
 .slider { 
   display: flex;
   align-items: center;
   column-gap: 20px; 
+  position: relative;
+  transition: top 0.3s ease-in-out .3s;
 } 
+
+.slider:first-child {
+  padding-left: 82px;
+  @media (max-width: 1060px) {
+    padding-inline: 8px;
+  }
+}
+
+.slider:last-child {
+  padding-right: 82px;
+  @media (max-width: 1060px) {
+    padding-inline: 8px;
+  }
+}
 
 .slider__img {
   object-fit: cover;

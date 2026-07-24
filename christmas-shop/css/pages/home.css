@@ -90,10 +90,10 @@
 
 .slider-section__title {
   text-align: center;
-  padding-right: 82px;
+  padding-inline: 82px;
 
   @media (max-width: 1060px) {
-    padding-right: 8px;   
+    padding-inline: 8px;   
   }
 }
 
@@ -174,7 +174,8 @@
 
 .slider-section__container  {
   padding-right: 0;
-} 
+  padding-left: 0;
+}  
 
 @media (max-width: 635px) {
   .about-section__content {

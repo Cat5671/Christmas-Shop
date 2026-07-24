@@ -11,8 +11,10 @@
     <header class="header">
       <div class="container header__container">
         <div class="logo">
-          <img class="logo__img" src="./assets/icons/snowflake.svg" alt="logo">
-          <span class="logo__store-name action-small">the gifts</span>
+          <a class="logo__link" href="./index.html">
+            <img class="logo__img" src="./assets/icons/snowflake.svg" alt="logo">
+            <span class="logo__store-name action-small">the gifts</span>
+          </a>
         </div>
         <nav class="header__nav nav">
           <ul class="nav__list action-small">
@@ -106,42 +108,7 @@
         <div class="container gifts-section__container">
          <h2 class="gifts-section__title"><span class="caption">Best Gifts</span><span class="secondary-header">especially for you</span></h2> 
          <ul class="gifts">
-          <li class="gift">
-            <div class="gift__backround">
-              <img class="gift__img" src="./assets/imgs/gifts/gift-for-work.png" alt="gift-for-work">
-              <div class="gift__text">
-                <h4 class="gift__category" data-gift-for="work">For work</h4>
-                <h3 class="gift__title header-3">Console.log Guru</h3>  
-              </div>
-            </div>
-          </li>
-          <li class="gift">
-            <div class="gift__backround">
-              <img class="gift__img" src="./assets/imgs/gifts/gift-for-health.png" alt="gift-for-health">
-              <div class="gift__text">
-                <h4 class="gift__category" data-gift-for="health">For health</h4>
-                <h3 class="gift__title header-3">Hydration Bot</h3>
-              </div>
-            </div>
-          </li>
-          <li class="gift">
-            <div class="gift__backround">
-              <img class="gift__img" src="./assets/imgs/gifts/gift-for-work.png" alt="gift-for-work">
-              <div class="gift__text">
-                <h4 class="gift__category" data-gift-for="work">For work</h4>
-                <h3 class="gift__title header-3">Merge Master</h3>
-              </div>
-            </div>
-          </li>
-          <li class="gift">
-            <div class="gift__backround">
-              <img class="gift__img" src="./assets/imgs/gifts/gift-for-harmony.png" alt="gift-for-harmony">
-              <div class="gift__text">
-                <h4 class="gift__category" data-gift-for="harmony">For harmony</h4>
-                <h3 class="gift__title header-3">Spontaneous Coding Philosopher</h3>
-              </div>
-            </div>
-          </li>
+          
          </ul>  
         </div>
       </section> 
@@ -251,5 +218,58 @@
         </div> 
       </div> 
     </footer>
+    <div class="backdrop"> 
+      <div class="modal-gift"> 
+        <div class="close">
+          <img class="close__img" src="./assets/icons/close.svg" alt="close">
+        </div>
+        <div class="modal-gift__backround">
+          <div class="modal-gift__img-background"> 
+            <img class="modal-gift__img" >
+          </div>  
+          <div class="modal-gift__text">
+            <div class="modal-gift__main-text"> 
+              <h4 class="gift__category"></h4>
+              <h3 class="gift__title header-3"></h3> 
+              <p class="gift__description paragraph"></p> 
+            </div>
+            <div class="superpowers">
+              <h4 class="superpowers__title header-4">Adds superpowers to:</h4>
+              <div class="superpowers__content">
+                <div class="superpowers__elem paragraph">
+                  <span class="superpowers__title">Live</span>
+                  <div class="">
+                    <span class="superpowers__number"></span> 
+                    <div class="snowflake-container"></div>
+                  </div> 
+                </div>
+                <div class="superpowers__elem paragraph">
+                  <span class="superpowers__title">Create</span>
+                  <div>
+                    <span class="superpowers__number"></span>
+                    <div class="snowflake-container"></div>  
+                  </div>  
+                </div>
+                <div class="superpowers__elem paragraph">
+                  <span class="superpowers__title">Love</span>
+                  <div>
+                    <span class="superpowers__number"></span>
+                    <div class="snowflake-container"></div>
+                  </div>   
+                </div>
+                <div class="superpowers__elem paragraph">
+                  <span class="superpowers__title">Dream</span>
+                  <div>
+                    <span class="superpowers__number"></span>
+                    <div class="snowflake-container"></div>
+                  </div>  
+                </div>
+              </div>  
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>  
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
