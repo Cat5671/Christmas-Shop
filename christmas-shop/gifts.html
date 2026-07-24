@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
-    <header class="header">
+    <a class="scroll-to-top-button" href="#top">
+      <img class="scroll-to-top-button__img" src="/assets/icons/arrow-up.svg" alt="arrow-up">
+    </a>
+    <header class="header" id="top">
       <div class="container header__container">
         <div class="logo">
           <a class="logo__link" href="./index.html">
@@ -50,114 +53,7 @@
             <li class="tab">for harmony</li>
           </ul>
           <ul class="holiday-gifts">
-            <li class="gift">
-              <div class="gift__backround">
-                <img class="gift__img" src="./assets/imgs/gifts/gift-for-work.png" alt="gift-for-work">
-                <div class="gift__text">
-                  <h4 class="gift__category" data-gift-for="work">For work</h4>
-                  <h3 class="gift__title header-3">Console.log Guru</h3>  
-                </div>
-              </div>
-            </li>
-            <li class="gift">
-              <div class="gift__backround">
-                <img class="gift__img" src="./assets/imgs/gifts/gift-for-health.png" alt="gift-for-health">
-                <div class="gift__text">
-                  <h4 class="gift__category" data-gift-for="health">For health</h4>
-                  <h3 class="gift__title header-3">Step Master</h3>
-                </div>
-              </div>
-            </li>
-            <li class="gift">
-              <div class="gift__backround">
-                <img class="gift__img" src="./assets/imgs/gifts/gift-for-work.png" alt="gift-for-work">
-                <div class="gift__text">
-                  <h4 class="gift__category" data-gift-for="work">For work</h4>
-                  <h3 class="gift__title header-3">Bug Magnet</h3>  
-                </div>
-              </div>
-            </li>
-            <li class="gift">
-              <div class="gift__backround">
-                <img class="gift__img" src="./assets/imgs/gifts/gift-for-work.png" alt="gift-for-work">
-                <div class="gift__text">
-                  <h4 class="gift__category" data-gift-for="work">For work</h4>
-                  <h3 class="gift__title header-3">Shortcut Cheater</h3>  
-                </div>
-              </div>
-            </li>
-            <li class="gift">
-              <div class="gift__backround">
-                <img class="gift__img" src="./assets/imgs/gifts/gift-for-health.png" alt="gift-for-health">
-                <div class="gift__text">
-                  <h4 class="gift__category" data-gift-for="health">For health</h4>
-                  <h3 class="gift__title header-3">Posture Levitation</h3>
-                </div>
-              </div>
-            </li>
-            <li class="gift">
-              <div class="gift__backround">
-                <img class="gift__img" src="./assets/imgs/gifts/gift-for-harmony.png" alt="gift-for-harmony">
-                <div class="gift__text">
-                  <h4 class="gift__category" data-gift-for="harmony">For harmony</h4>
-                  <h3 class="gift__title header-3">Bug Acceptance Guru</h3>
-                </div>
-              </div>
-            </li>
-            <li class="gift">
-              <div class="gift__backround">
-                <img class="gift__img" src="./assets/imgs/gifts/gift-for-health.png" alt="gift-for-health">
-                <div class="gift__text">
-                  <h4 class="gift__category" data-gift-for="health">For health</h4>
-                  <h3 class="gift__title header-3">Snack Resister</h3>
-                </div>
-              </div>
-            </li>
-            <li class="gift">
-              <div class="gift__backround">
-                <img class="gift__img" src="./assets/imgs/gifts/gift-for-harmony.png" alt="gift-for-harmony">
-                <div class="gift__text">
-                  <h4 class="gift__category" data-gift-for="harmony">For harmony</h4>
-                  <h3 class="gift__title header-3">Error Laugher</h3>
-                </div>
-              </div>
-            </li>
-            <li class="gift">
-              <div class="gift__backround">
-                <img class="gift__img" src="./assets/imgs/gifts/gift-for-health.png" alt="gift-for-health">
-                <div class="gift__text">
-                  <h4 class="gift__category" data-gift-for="health">For health</h4>
-                  <h3 class="gift__title header-3">Hydration Bot</h3>
-                </div>
-              </div>
-            </li>
-            <li class="gift">
-              <div class="gift__backround">
-                <img class="gift__img" src="./assets/imgs/gifts/gift-for-work.png" alt="gift-for-work">
-                <div class="gift__text">
-                  <h4 class="gift__category" data-gift-for="work">For work</h4>
-                  <h3 class="gift__title header-3">Merge Master</h3>  
-                </div>
-              </div>
-            </li>
-            <li class="gift">
-              <div class="gift__backround">
-                <img class="gift__img" src="./assets/imgs/gifts/gift-for-harmony.png" alt="gift-for-harmony">
-                <div class="gift__text">
-                  <h4 class="gift__category" data-gift-for="harmony">For harmony</h4>
-                  <h3 class="gift__title header-3">Joy Charger</h3>
-                </div>
-              </div>
-            </li>
-            <li class="gift">
-              <div class="gift__backround">
-                <img class="gift__img" src="./assets/imgs/gifts/gift-for-harmony.png" alt="gift-for-harmony">
-                <div class="gift__text">
-                  <h4 class="gift__category" data-gift-for="harmony">For harmony</h4>
-                  <h3 class="gift__title header-3">Spontaneous Coding Philosopher</h3>
-                </div>
-              </div>
-            </li>
+            
           </ul> 
         </div>      
       </section>    
@@ -237,6 +133,59 @@
           <a class="footer__link caption" href="https://rs.school/ru" target="_blank">Made in Rolling Scopes School</a>
         </div> 
       </div> 
-    </footer>  
+    </footer>
+    <div class="backdrop"> 
+      <div class="modal-gift"> 
+        <div class="close">
+          <img class="close__img" src="./assets/icons/close.svg" alt="close">
+        </div>
+        <div class="modal-gift__backround">
+          <div class="modal-gift__img-background"> 
+            <img class="modal-gift__img" >
+          </div>  
+          <div class="modal-gift__text">
+            <div class="modal-gift__main-text"> 
+              <h4 class="gift__category"></h4>
+              <h3 class="gift__title header-3"></h3> 
+              <p class="gift__description paragraph"></p> 
+            </div>
+            <div class="superpowers">
+              <h4 class="superpowers__title header-4">Adds superpowers to:</h4>
+              <div class="superpowers__content">
+                <div class="superpowers__elem paragraph">
+                  <span class="superpowers__title">Live</span>
+                  <div class="">
+                    <span class="superpowers__number"></span> 
+                    <div class="snowflake-container"></div>
+                  </div> 
+                </div>
+                <div class="superpowers__elem paragraph">
+                  <span class="superpowers__title">Create</span>
+                  <div>
+                    <span class="superpowers__number"></span>
+                    <div class="snowflake-container"></div>  
+                  </div>  
+                </div>
+                <div class="superpowers__elem paragraph">
+                  <span class="superpowers__title">Love</span>
+                  <div>
+                    <span class="superpowers__number"></span>
+                    <div class="snowflake-container"></div>
+                  </div>   
+                </div>
+                <div class="superpowers__elem paragraph">
+                  <span class="superpowers__title">Dream</span>
+                  <div>
+                    <span class="superpowers__number"></span>
+                    <div class="snowflake-container"></div>
+                  </div>  
+                </div>
+              </div>  
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div> 
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>

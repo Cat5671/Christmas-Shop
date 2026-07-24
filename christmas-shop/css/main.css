@@ -5,6 +5,7 @@
 @import './components/carousel.css'; 
 @import './components/drawer.css';
 @import './components/gift-card.css';
+@import './components/modal.css';
 @import './components/timer.css';
 @import './layout/header.css';
 @import './layout/footer.css'; 
@@ -14,6 +15,10 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+.no-scroll {
+  overflow-y: hidden;
 }
  
 

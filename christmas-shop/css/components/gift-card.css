@@ -1,4 +1,4 @@
-.gift__backround {
+.gift__background {
   height: 100%;
   width: 310px;
   display: flex;
@@ -12,15 +12,15 @@
 }
 
 @media (hover: hover) {
-  .gift__backround:hover {
+  .gift__background:hover {
     cursor: pointer;
   }   
   
-  .gift__backround:hover .gift__title {
+  .gift__background:hover .gift__title {
     color: var(--primary);
   }
 }  
-
+ 
 .gift__text {
   min-height: 72.25px;
   height: 100%;
@@ -32,14 +32,14 @@
   row-gap: 8px;
 }
 
-.gift__category[data-gift-for="work"] {
+.gift__category[data-gift-for="for work"] {
   color: var(--tag-purple);    
 }
 
-.gift__category[data-gift-for="health"] {
+.gift__category[data-gift-for="for health"] {
   color: var(--tag-green);    
 }
 
-.gift__category[data-gift-for="harmony"] {
+.gift__category[data-gift-for="for harmony"] {
   color: var(--tag-pink);    
 }

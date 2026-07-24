@@ -53,3 +53,22 @@
 .slider-button--inactive .slider-button__icon {
   color: var(--static-white-40);
 } 
+
+.scroll-to-top-button {
+  padding: 15px;
+  border-radius: 50%;
+  border: 1px solid var(--primary);
+  background-color: var(--static-white);
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  display: none;
+}
+
+.scroll-to-top-button--active {
+  display: block;
+}
+
+.scroll-to-top-button:hover {
+  cursor: pointer;
+}

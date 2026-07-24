@@ -7,8 +7,7 @@
   padding-block: 12px;    
 }
 
-.logo__link, 
-.logo {
+.logo__link {
   padding-block: 8px ;
   padding-inline: 20px;
   display: flex;
@@ -65,7 +64,7 @@
   width: 20px;
   right: 25%;
   background-color: var(--dark);
-  transition: all 0.3s ease;  
+  transition: top .2s .2s;
 }
 
 .burger-menu__item::before {
@@ -79,6 +78,7 @@
 .burger-menu__item--active::before, 
 .burger-menu__item--active::after {
   top: 50%;
+  transition: top .2s, transform .2s .2s;
 }
  
 .burger-menu__item--active::before {
