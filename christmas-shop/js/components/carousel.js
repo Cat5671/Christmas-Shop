@@ -60,7 +60,7 @@ export function initSlider() {
     step = 0;
     numOfSteps = getNumOfSteps(); 
     stepSize =  getStepSize(slider); 
-    slider.style.right = '';
+    slider.style.right = '0';
     updateButtonState();
   });
 }
