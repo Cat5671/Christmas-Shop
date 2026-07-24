@@ -46,7 +46,7 @@ function renderModal(dataCard) {
   const giftDescription = modal.querySelector('.gift__description');
   const superpowers = modal.querySelector('.superpowers__content'); 
 
-  imgModal.src = `/assets/imgs/gifts/${dataCard.img}`;
+  imgModal.src = `assets/imgs/gifts/${dataCard.img}`;
   imgModal.alt = dataCard.name;
   giftCategory.textContent = dataCard.category;
   giftCategory.setAttribute('data-gift-for', dataCard.category.toLowerCase());
@@ -75,8 +75,8 @@ function createSnowflake(powerCount) {
   for (let i = 1; i <= MAX_SNOWFLAKES; i += 1) {
     const snowflakeImg = document.createElement('img'); 
     snowflakeImg.src = i <= activeCount ? 
-    `/assets/icons/snowflake.svg` : 
-    `/assets/icons/snowflake-inactive.svg`;
+    `assets/icons/snowflake.svg` : 
+    `assets/icons/snowflake-inactive.svg`;
     snowflakeImg.alt = 'snowflake';
     fragment.append(snowflakeImg);
   }
